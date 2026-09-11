@@ -18,13 +18,8 @@ const SHIRT_SIZES = ["XS", "S", "M", "L", "XL", "XXL"];
 const BATCH_OPTIONS = ["2026 Batch", "2027 Batch"];
 
 const SIZE_CHART = [
-  { label: "Chest", values: ["17½", "18½", "19½", "20½", "21½", "23"] },
-  { label: "Height", values: ["25", "26", "27", "28", "29", "30"] },
-  { label: "Sleeve Length", values: ["8", "8", "8½", "9", "9½", "9½"] },
-  { label: "Sleeve Length (With Cuff)", values: ["7½", "8", "8¼", "8½", "9", "9½"] },
-  { label: "Sleeve Open", values: ["5½", "5¾", "5¾", "6½", "6¾", "7"] },
-  { label: "Shoulder", values: ["14", "15", "16", "16½", "17½", "18"] },
-  { label: "Collar Size", values: ["14½", "15", "15½", "16", "16½", "17"] }
+  { label: "Chest", values: ["33\" / 34\"", "35\"", "36\" / 36.5\"", "37\" / 38\" / 39\" / 40\"", "41\" / 42\" / 43\"", "44\" / 45\" / 46\""] },
+  { label: "Height", values: ["24\"", "26\"", "27.5\"", "28.5\"", "30.5\"", "30.5\""] }
 ];
 
 function formatLKR(n) { return "LKR " + n.toLocaleString("en-US"); }

@@ -1084,7 +1084,7 @@ body.menu-open { overflow: hidden; }
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: min(720px, calc(100% - 32px));
+  width: min(880px, calc(100% - 32px));
   max-height: calc(100vh - 48px);
   display: flex;
   flex-direction: column;
@@ -1119,7 +1119,7 @@ body.menu-open { overflow: hidden; }
 .size-modal-close:hover { color: #211A70; background: #F4F2EC; }
 .size-table-wrap { overflow-x: auto; padding: 16px 22px 22px; }
 .size-table { width: 100%; border-collapse: collapse; min-width: 540px; font-size: 14px; }
-.size-table th, .size-table td { padding: 10px 12px; text-align: center; border-bottom: 1px solid #EFECE3; }
+.size-table th, .size-table td { padding: 9px 12px; text-align: center; border-bottom: 1px solid #EFECE3; }
 .size-table thead th {
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
@@ -1134,7 +1134,21 @@ body.menu-open { overflow: hidden; }
   font-weight: 600;
   white-space: nowrap;
 }
-.size-table td { color: #3E465F; }
+.size-table td { color: #3E465F; white-space: nowrap; }
+
+/* ---------- Measurement illustration ---------- */
+.size-measure-preview {
+  display: flex;
+  justify-content: center;
+  padding: 20px 24px 22px;
+  border-bottom: 1px solid #EFECE3;
+}
+.size-guide-img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+}
 
 
 /* ---------- Footer ---------- */
