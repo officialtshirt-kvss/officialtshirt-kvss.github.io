@@ -1,4 +1,8 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbyy_rXJ6-SjDMygKjv52IUainQFIeaNj1-vfokaBSfi_5zYRXTfLQLVoW1rJXsCyh7AyQ/exec";
+// BACKEND: Supabase Edge Function (see supabase/functions/api/index.ts)
+// After deploying it, replace this URL with:
+//   https://<PROJECT-REF>.supabase.co/functions/v1/api
+// (Full instructions: SETUP.md)
+const API_URL = "https://trwbafwaggbjmciqvcgf.supabase.co/functions/v1/api";
 
 // Single source of truth for design data (name, price, edition, image).
 const DESIGNS = {
